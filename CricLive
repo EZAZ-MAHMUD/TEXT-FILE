@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CricLive - Live Cricket Score</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>CricLive</h1>
+        <p>Real-time Match Updates</p>
+    </header>
+
+    <main class="container">
+        <div id="match-card" class="match-card">
+            <h2 id="match-title">Loading Match...</h2>
+            <div class="score-section">
+                <div class="team">
+                    <span id="team-1-name">Team Chem</span>
+                    <span id="team-1-score">0/0</span>
+                </div>
+                <div class="vs">VS</div>
+                <div class="team">
+                    <span id="team-2-name">Team ENG</span>
+                    <span id="team-2-score">Yet to Bat</span>
+                </div>
+            </div>
+            <div id="match-status" class="status">Live Updates Starting Soon</div>
+            <button id="update-btn" onclick="updateManualScore()">Refresh Score</button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
