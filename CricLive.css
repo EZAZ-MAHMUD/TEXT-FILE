@@ -1,0 +1,67 @@
+/* style.css */
+
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #009270; /* Cricbuzz Green */
+    color: white;
+    padding: 20px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.match-card {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    width: 350px;
+}
+
+.score-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.team {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+.vs {
+    color: #888;
+    font-style: italic;
+}
+
+.status {
+    color: #d32f2f;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #009270;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #007a5e;
+}
