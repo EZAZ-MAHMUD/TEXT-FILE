@@ -65,3 +65,24 @@ button {
 button:hover {
     background-color: #007a5e;
 }
+.overs-info {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #333;
+}
+
+.batsman-info {
+    display: flex;
+    justify-content: space-around;
+    background: #f4f4f4;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+
+.player {
+    color: #2c3e50;
+}
+
